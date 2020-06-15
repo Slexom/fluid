@@ -52,10 +52,9 @@ public class FluidBugMod {
     public static final RegistryObject<FlowingFluidBlock> BUGGY_FLUID_BLOCK = BLOCKS.register("buggy_fluid_block",
             () -> new FlowingFluidBlock(
                     BUGGY_FLUID_FLUID_STILL,
-                    Block.Properties.create(Material.WATER, MaterialColor.BROWN)
+                    Block.Properties.create(Material.WATER)
                             .doesNotBlockMovement()
                             .hardnessAndResistance(100.0F)
-                            .speedFactor(0.75F)
                             .noDrops()
             )
     );
