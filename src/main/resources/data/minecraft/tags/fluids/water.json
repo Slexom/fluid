@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fluid_bug:buggy_fluid",
+    "fluid_bug:buggy_fluid_flow"
+    ]
+}

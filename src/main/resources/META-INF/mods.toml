@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="fluid_bug"
+version="1.0.0"
+displayName="FluidBug"
+credits="Slexom"
+authors="Slexom"
+
+[[dependencies.earthtojavamobs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
